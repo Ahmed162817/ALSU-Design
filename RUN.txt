@@ -1,0 +1,5 @@
+vlib work
+vlog ALSU_design.v ALSU_testbench.v
+vsim -voptargs=+acc work.ALSU_tb
+add wave * 
+run -all
